@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "SPF-REGULAR";
+  src: local("SPF-REGULAR"),
+  url("./assets/font/SFPRODISPLAYREGULAR.OTF") format("truetype");
+  font-weight: bold;
+}
+
+
+body {
+  font-family: "SPF-REGULAR";
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  min-height: 100vh;
+}
