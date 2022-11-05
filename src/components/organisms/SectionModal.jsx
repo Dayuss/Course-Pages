@@ -12,9 +12,9 @@ export const SectionModal = ({setActive, active, datum, submit}) => {
   const handleSubmit = ()=>{
     if(title==="") toast("Write a title first..");
     else{
-      console.log(title)
       submit({title});
       setActive(false);
+      setTitle('')
 
     }
   }

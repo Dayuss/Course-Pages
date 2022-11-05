@@ -39,7 +39,12 @@ export const LessonModal = ({setActive, active, sections, submit}) => {
         isRequired:require,
         isPreview:preview
       });
-      setActive(false)
+      setActive(false);
+      setTitle("")
+      setType("video")
+      setSection("")
+      setRequire(false)
+      setPreview(false)
     }
   }
   return (
